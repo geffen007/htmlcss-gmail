@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+}
+
+hr {
+    color:rgba(72, 138, 199, 0.5);
+}
+
+body{
+    background-color: #5CB3FF;
+    background-image: url("../img/sfondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-top: 5px;
+    height: 100%;
+    max-height: 200px;
+
+}
+#gmail {
+    height: 100%;
+    max-height: 200px;
+    width: 100%;
+    max-width: 200px;
+}
+h1 {
+    display: inline-block;
+    font-size: 10vw;
+	line-height: 200px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.unread {
+    color: blue;
+}
+.advise {
+    line-height: 50px;
+}
+#unreadnumber {
+    border-radius: 50%;
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.object {
+    font-weight: bold;
+}
+
+.mail {
+    background-color: #98AFC7;
+    border-style: solid;
+    border-color: #4A4344;
+    border-width: 1px;
+}
+.input {
+    width: 100px
+}
+
+.text{
+    color: grey;
+}
+
+footer{
+    color: White;
+    text-align: center;
+
+}
+
+#gmfoot{
+    font-size: 40px;
+    font-weight: bold;
+
+}
